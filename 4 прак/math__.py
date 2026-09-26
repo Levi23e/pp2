@@ -1,12 +1,10 @@
 #1
-
 import math
 print("Input degree:", end=" ")
 a = int(input())
 print("Output radian:", round(math.radians(a), 6))
 
 #2
-
 print("Height:", end=" ")
 h= int(input())
 
@@ -18,8 +16,8 @@ s= int(input())
 
 res= (math.fsum([f,s])/2)*h
 print("Output:", res)
-#3
 
+#3
 print("Input number of sides:",end=" ")
 num=float(input())
 
@@ -31,7 +29,6 @@ print("The area of the polygon is:",int(area))
 
 
 #4
-
 print("Length of base:",end=" ")
 l=float(input())
 
