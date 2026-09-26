@@ -23,8 +23,6 @@
 
 
 
-
-
 class nums():
     def __init__(self, a ,c):
         self.list = a
