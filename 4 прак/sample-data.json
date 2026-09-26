@@ -121,7 +121,7 @@
                     "pathSDescr": "",
                     "portT": "fab",
                     "prioFlowCtrl": "auto",
-                    "qiqL2ProtTunMask": "",
+                    "qiqL2ProtTunMask": "", 
                     "routerMac": "not-applicable",
                     "snmpTrapSt": "enable",
                     "spanMode": "not-a-span-dest",
