@@ -11,7 +11,6 @@ for num in generat(n):
 
 
 #2
-
 def evens(num):
      cur=0
      while cur <= num:
@@ -43,7 +42,6 @@ print(" ".join(res))
 
 
 #4
-
 def squares(a,b):
     for i in range(a,b):
         yield i**2
@@ -57,7 +55,6 @@ for i in squares(firs,secn):
     print(i, end=" ")
 
 #5
-
 def down(n):
     nex = n
     while nex >= 0:
