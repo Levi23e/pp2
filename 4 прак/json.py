@@ -1,6 +1,6 @@
 import json
 
-# Открываем и загружаем JSON-файл
+# Открываем JSON-файл
 with open("sample-data.json", "r") as file:
     data = json.load(file)
 
