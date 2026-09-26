@@ -1,4 +1,5 @@
 import json
+
 with open('sample-data.json', 'r') as file:
     sample_data = json.load(file)
 
