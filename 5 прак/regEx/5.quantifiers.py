@@ -5,7 +5,7 @@ x = re.search(r"\d{3}", txt)
 
 if x:
     print("Found exactly 3 digits in a row")
-else:
+else: 
     print("No match")
 
 txt = "caaandy"
