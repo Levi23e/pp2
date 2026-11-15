@@ -71,9 +71,10 @@ BEGIN
         IF length(p_phones[i]) >= 10 THEN
             CALL upsert(
                 p_names[i],
-                p_phone[i],
-                p_email[i]
-            );
+                p_phones[i],
+                p_emails[i],
+                NULL -- или соответствующая дата рождения
+                );
         END IF;
         
     END LOOP;
