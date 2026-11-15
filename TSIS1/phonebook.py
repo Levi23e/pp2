@@ -150,7 +150,9 @@ def main():
                     email = input("email: ") or None
                     birthday = input("birthday (YYYY-MM-DD) or empty: ") or None
 
-                    cur.execute("CALL upsert(%s, %s, %s, %s)", (name, phone, email,birthday))
+                    cur.execute(
+                        "CALL upsert(%s, %s, %s, %s)",
+                        (row["name"], row["phone"], row.get("email"), row.get("birthday")),)
                     conn.commit()
                     print(f"contact {name} saved.")
 
