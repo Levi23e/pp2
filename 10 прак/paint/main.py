@@ -6,7 +6,7 @@ class Paint:
         pygame.init()
 
         self.screen = pygame.display.set_mode((640, 480))
-        self.clock = pygame.time.Clock()
+        self.clock = pygame.time.Clock() 
         self.font = pygame.font.SysFont("Verdana", 15)
         
         
